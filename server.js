@@ -1,5 +1,7 @@
+/* eslint-disable no-unused-vars */
 const http = require('http');
 const fs = require('fs');
+// eslint-disable-next-line no-unused-vars
 const { isAbsolute } = require('path');
 
 const PORT = process.env.PORT || 3000;
